@@ -5,12 +5,5 @@ In this project, we explored the applicability of three different approaches for
 - CNN-based model.
 - Transfer learning with VGG-16.
 
-# Results
-
-| Model                   | Train accuracy | Test accuracy |
-|-------------------------|----------------|---------------|
-| HOG and SVM             | 82.5%          | 64.51%        |
-| Traditional CNN        | 93.43%         | 88.58%        |
-| Transfer Learning: VGG16| 98.62%         | 91.32%        |
 
 
