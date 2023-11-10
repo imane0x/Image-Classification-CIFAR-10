@@ -1,3 +1,7 @@
 # Image Classification on CIFAR-10 dataset
-In this project, we explored the applicability of three different approaches for tackling image classification problem on CIFAR-10 dataset. In our case, the proposed CNN-based model remarkably outperformed the SVM classifier trained on HOG features and proved unsatisfactory mainly due to the low resolution of CIFAR-10 images. The use of the pre-trained VGG-16 network especially with the upsampling operation further improves the classification accuracy. For future work, further performance gain could be achieved by using state-of-the-art machine learning techniques such as multitask learning and continual learning. Moreover, including data augmentation will noticeably ameliorate the accuracy. Finally, in order to enhance the performance of the classical method, one can consider using other feature descriptors or opting for an ensemble feature selection approach.
+In this project, we explored the applicability of three different approaches for tackling image classification problem on CIFAR-10 dataset:
+
+- SVM classifier trained on HOG features.
+- CNN-based model.
+- Transfer learning with VGG-16. 
 
